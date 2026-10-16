@@ -1,0 +1,151 @@
+.zone-grid {
+  align-items: stretch;
+  grid-template-columns: repeat(var(--zone-cols, 1), minmax(240px, 1fr));
+}
+
+.zone-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.zone-card .zone-watering {
+  margin-top: auto;
+}
+
+.zone-metrics .row-tile {
+  cursor: default;
+}
+
+.zone-metrics .row-tile:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.zone-metrics .row-tile.danger {
+  border-color: rgba(255, 93, 93, 0.7);
+  background: rgba(255, 93, 93, 0.12);
+}
+
+.zone-metrics .row-tile.danger .row-title,
+.zone-metrics .row-tile.danger .row-meta {
+  color: #ffb3b3;
+}
+
+.report-grid {
+  position: relative;
+}
+
+.report-grid select {
+  position: relative;
+  z-index: 1;
+}
+
+.report-grid select:focus {
+  z-index: 3;
+}
+
+.report-select-row {
+  position: relative;
+  top: -40px;
+  margin-bottom: 8px;
+}
+
+.row-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.row-tile {
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #122033;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+}
+
+.row-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.row-tile.watering {
+  border-color: rgba(33, 212, 194, 0.4);
+  background: rgba(33, 212, 194, 0.08);
+}
+
+.row-tile.idle {
+  border-color: rgba(255, 168, 74, 0.2);
+}
+
+.row-title {
+  font-weight: 700;
+}
+
+.row-meta {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.dashboard-panel {
+  margin-top: 14px;
+}
+
+.dashboard-panel-heading {
+  margin-bottom: 8px;
+}
+
+.dashboard-panel-heading h3 {
+  margin: 0;
+}
+
+.micro-chart {
+  height: 220px;
+}
+
+.micro-chart-title {
+  margin-bottom: 4px;
+}
+
+.report-panel-grid {
+  align-items: stretch;
+}
+
+.report-chart {
+  height: 320px;
+}
+
+.report-chart-heading {
+  margin-bottom: 8px;
+}
+
+.report-chart-note {
+  margin-top: 6px;
+}
+
+.reference-editor-title {
+  position: relative;
+  z-index: 1;
+}
+
+.reference-editor-grid {
+  align-items: flex-start;
+}
+
+.reference-param-row {
+  margin-bottom: 8px;
+}
+
+.reference-user {
+  margin-top: 6px;
+}
+
+.reference-message {
+  margin-top: 8px;
+}
+
+.reference-actions {
+  margin-top: 10px;
+}

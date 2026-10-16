@@ -1,0 +1,1 @@
+import{j as s}from"./index-CZMou981.js";function c({title:e,subtitle:r,actions:a}){return s.jsxs("div",{className:"topbar",children:[s.jsxs("div",{children:[r&&s.jsx("div",{className:"breadcrumbs",children:r}),s.jsx("div",{className:"title",children:e})]}),a&&s.jsx("div",{className:"actions",children:a})]})}export{c as T};

@@ -1,0 +1,1 @@
+import{j as r}from"./index-B47S81FF.js";function i({status:n,children:s}){const a={ok:"success",normal:"success",warn:"warning",warning:"warning",critical:"danger"}[n]||"success";return r.jsx("span",{className:`pill ${a}`,children:s??n})}export{i as S};

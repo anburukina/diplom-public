@@ -1,0 +1,1 @@
+import{j as s}from"./index-Zx4OA86K.js";import{T as e}from"./Topbar-BMvnxl8Z.js";function r(){return s.jsxs("div",{children:[s.jsx(e,{title:"Настройки",subtitle:"Заглушка для ролей и параметров"}),s.jsx("div",{className:"panel",children:s.jsx("div",{className:"muted",children:"Настройки ролей и доступа будут настроены на этапе интеграции с backend."})})]})}export{r as Settings};

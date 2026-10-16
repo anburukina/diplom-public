@@ -1,0 +1,55 @@
+:root {
+  font-family: 'Segoe UI', 'Noto Sans', 'Inter', system-ui, -apple-system, 'Arial', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e7edf5;
+  background-color: #0f1724;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg: #0f1724;
+  --panel: #121c2d;
+  --panel-strong: #0c1220;
+  --border: #1f2c3f;
+  --accent: #21d4c2;
+  --accent-2: #ffa84a;
+  --danger: #f16b6b;
+  --warning: #ffc247;
+  --muted: #93a3be;
+  --text: #e7edf5;
+  --gradient: radial-gradient(circle at 10% 20%, rgba(33, 212, 194, 0.2), transparent 25%),
+    radial-gradient(circle at 90% 10%, rgba(255, 168, 74, 0.2), transparent 20%),
+    radial-gradient(circle at 80% 80%, rgba(105, 148, 255, 0.15), transparent 35%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  background-image: var(--gradient);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2c3f;
+  border-radius: 10px;
+}

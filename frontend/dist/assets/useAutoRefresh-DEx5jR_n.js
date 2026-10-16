@@ -1,0 +1,1 @@
+import{r as t}from"./index-B6jZ5Yp_.js";function a(e,o=3e3){const c=t.useRef(e);t.useEffect(()=>{c.current=e},[e]),t.useEffect(()=>{const s=setInterval(()=>{try{const r=c.current?.();r&&typeof r.then=="function"&&r.catch(n=>console.error("Auto-refresh error",n))}catch(r){console.error("Auto-refresh error",r)}},o);return()=>clearInterval(s)},[o])}export{a as u};

@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    display: none;
+  }
+
+  .main {
+    padding: 16px;
+  }
+}
